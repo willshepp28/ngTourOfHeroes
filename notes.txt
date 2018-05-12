@@ -1,0 +1,8 @@
+ng new <newProject> : creates a new angualar application
+
+ng serve --open : starts the sever and opens browser to localhost:4200
+
+Components are the fundamental building blocs of Angular applications. They display data on the
+screen, listen for user input, and take action based on that input.
+
+{{ example }} : the double curly braces are Angulars interpolation binding syntax
