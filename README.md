@@ -1,27 +1,23 @@
 # AngularTourOfHeroes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
+`ng new 'newProject' :` creates a new angualar application
 
-## Development server
+`ng serve --open :` starts the sever and opens browser to localhost:4200
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Components are the fundamental building blocs of Angular applications. They display data on the
+screen, listen for user input, and take action based on that input.
 
-## Code scaffolding
+`{{ example }} :` the double curly braces are Angulars interpolation binding syntax
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Put application-wide styles in src/styles.css
 
-## Build
+`ng g c 'name'` : generates a new Components
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+`@Component`: is a decorator function that specifies the angular metadata for the Component
 
-## Running unit tests
+## Three metadata properites in @Component decorator
+ - selector - the components CSS element selector
+ - templateUrl - the location of the components template file
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+ `Pipes`: are a good way to format strings, currency amounts, dates and other display data. Angular ships with several built-in pipes and you can create your own.

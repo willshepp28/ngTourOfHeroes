@@ -6,3 +6,8 @@ Components are the fundamental building blocs of Angular applications. They disp
 screen, listen for user input, and take action based on that input.
 
 {{ example }} : the double curly braces are Angulars interpolation binding syntax
+
+1. Put application-wide styles in src/styles.css
+
+ng g c <name> : generates a new Components
+
