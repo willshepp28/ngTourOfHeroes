@@ -21,3 +21,5 @@ screen, listen for user input, and take action based on that input.
 
 
  `Pipes`: are a good way to format strings, currency amounts, dates and other display data. Angular ships with several built-in pipes and you can create your own.
+
+ `*ngFor`: is angulars repeater directive.
